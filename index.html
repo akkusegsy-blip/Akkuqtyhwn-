@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Snapchat Profile - AkkU</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #ddd;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: url('https://via.placeholder.com/1200x300/222/444?text=Profile+Background') no-repeat center;
+      background-size: cover;
+      text-align: center;
+      padding: 40px 20px;
+      position: relative;
+    }
+    header img.profile-pic {dp.jpg}
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid #eee;
+      position: absolute;
+      bottom: -60px;
+      left: 20px;
+      background-color: #333;
+    }
+    header h1 {
+      font-size: 1.8em;
+      margin: 0;
+      padding-top: 20px;
+      color: #fff;
+    }
+    header p {
+      margin: 5px 0 0 0;
+      color: #ccc;
+    }
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin: 80px 0 20px 0;
+    }
+    button {
+      padding: 10px 25px;
+      border: none;
+      border-radius: 20px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+    button.account {
+      background-color: #444;
+      color: #eee;
+    }
+    button.public {
+      background-color: #888;
+      color: #222;
+    }
+    .info {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 20px;
+      font-size: 0.9em;
+      color: #bbb;
+    }
+    .highlight {
+      background-color: #ffd600;
+      padding: 5px 10px;
+      border-radius: 15px;
+      font-weight: bold;
+      color: #222;
+      cursor: pointer;
+    }
+    .subscription {
+      background-image: linear-gradient(90deg, #ffd600, #ffae00);
+      padding: 10px 20px;
+      margin: 0 50px 30px 50px;
+      border-radius: 12px;
+      color: #222;
+      font-weight: 600;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+    }
+    .posts {
+      max-width: 600px;
+      margin: 0 auto 40px auto;
+      background-color: #222;
+      border-radius: 12px;
+      padding: 20px;
+    }
+    .post-option {
+      background-color: #333;
+      padding: 15px;
+      margin-bottom: 12px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      gap: 10px;
+    }
+    .post-option:hover {
+      background-color: #444;
+    }
+    .post-icon {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background-color: #ff4a4a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+    .post-info {
+      display: flex;
+      flex-direction: column;
+    }
+    .post-title {
+      font-weight: bold;
+      color: #eee;
+    }
+    .post-desc {
+      font-size: 0.85em;
+      color: #ccc;
+    }
+    footer {
+      text-align: center;
+      color: #555;
+      padding: 15px 0;
+      font-size: 0.85em;
+      background-color: #111;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="https://i.imgur.com/dp.jpg" alt="Profile Picture" class="profile-pic" />
+  <h1>~/AkkU [दोगला हु] <span>🤍🌙⭐</span></h1>
+  <p>akkumhwhwn</p>
+</header>
+
+<div class="buttons">
+  <button class="account">My Account</button>
+  <button class="public">Public Profile</button>
+</div>
+
+<div class="info">
+  <div><span>🎈</span> Oct 25</div>
+  <div><span>👻</span> 696</div>
+  <div><span>♏</span> Scorpio</div>
+  <div class="highlight">+ Join School</div>
+</div>
+
+<div class="subscription" onclick="alert('Akku bagwan Snapchat+ subscription!');">
+  <div>Subscription expiring soon - update now!</div>
+  <div>→</div>
+</div>
+
+<div class="posts">
+  <div class="post-option" onclick="alert('Reach millions of Snapchatters!');">
+    <div class="post-icon">▶</div>
+    <div class="post-info">
+      <div class="post-title">Spotlight</div>
+      <div class="post-desc">Reach millions of Snapchatters!</div>
+    </div>
+  </div>
+  <div class="post-option" onclick="alert('Post to My Story - Public');">
+    <img src="https://i.imgur.com/3g7nmJC.jpg" alt="Profile Pic Small" style="width:32px; height:32px; border-radius: 50%;" />
+    <div class="post-info">
+      <div class="post-title">My Story · Public</div>
+      <div class="post-desc">Friends, Followers and Everyone</div>
+    </div>
+  </div>
+  <div class="post-option" onclick="alert('Post to My Story - Just for Friends');">
+    <div style="width: 28px; height: 28px; border-radius: 50%; background: #0af; display: flex; justify-content: center; align-items: center; color: white; font-weight: bold;">📷</div>
+    <div class="post-info">
+      <div class="post-title">My Story</div>
+      <div class="post-desc">Just for Friends</div>
+    </div>
+  </div>
+  <div class="post-option" style="background-color: #222; cursor: default;">
+    <div style="width:28px; height:28px; border-radius: 50%; background: #00a; display:flex; justify-content:center; align-items:center; color:#66f; font-weight:bold;">🔒</div>
+    <div class="post-info">
+      <div class="post-title">New Private Story</div>
+    </div>
+  </div>
+  <div class="post-option" style="background-color: #222; cursor: default;">
+    <div style="width:28px; height:28px; border-radius: 50%; background: #a0a; display:flex; justify-content:center; align-items:center; color:#d8a; font-weight:bold;">👥</div>
+    <div class="post-info">
+      <div class="post-title">New Shared Story</div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  &copy; 2024 Snapchat Profile by AkkU
+</footer>
+
+</body>
+</html>
